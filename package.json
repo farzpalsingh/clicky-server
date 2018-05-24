@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "request and response management server for game called clicky.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anubhav(GameFreak)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "node": "^9.11.0",
+    "nodemon": "^1.17.3",
+    "socket.io": "^2.1.0",
+    "websocket": "^1.0.25",
+    "ws": "^5.1.1"
+  },
+  "engines": {
+    "node": "8.11.1"
+  }
+}
